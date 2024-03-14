@@ -1,0 +1,30 @@
+.emojis {
+margin: 1vh;
+display: flex;
+width: 100%;
+max-width: 100%;
+height: 55vh;
+flex-direction: column;
+justify-content: flex-start;
+overflow: scroll;
+overflow-x: hidden;
+border-radius: 8px;
+}
+.emoji-element {
+padding: 3vh;
+background-color: aliceblue;
+width: 100%;
+max-width: 100%;
+border-bottom: 1px solid gray;
+}
+
+.copy{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.copy:active{
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 1px;
+}
